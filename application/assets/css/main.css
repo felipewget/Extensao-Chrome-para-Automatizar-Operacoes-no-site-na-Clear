@@ -1,0 +1,34 @@
+* {
+	font-family	: arial;
+	outline		: none;
+}
+
+body {
+    width	: 700px;
+}
+
+div[header] {
+	height		: 40px;
+	line-height	: 40px;
+	margin		: 5px;
+	border-bottom	: solid 1px #DDD;
+}
+
+div[header] p {
+	float		: left;
+	font-size	: 15px;
+	font-weight : bold;
+	height 		: 40px;
+	line-height : 10px;
+	margin-left : 10px;
+}
+
+div[header] button {
+	float	: right;
+	height 	: 30px;
+	margin	: 5px;
+	color 	: #FFF;
+	border 	: none;
+	border-radius 	: 3px;
+	background 		: #555;
+}
